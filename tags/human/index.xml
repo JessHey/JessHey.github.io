@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Human on &lt;/JesScirpt&gt;</title>
+    <link>http://localhost:1313/tags/human/</link>
+    <description>Recent content in Human on &lt;/JesScirpt&gt;</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2025 22:19:32 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/human/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THE ALIGNMENT PROBLEM</title>
+      <link>http://localhost:1313/blog/b001-the-alignment-problem/</link>
+      <pubDate>Mon, 21 Jul 2025 22:19:32 +1000</pubDate>
+      <guid>http://localhost:1313/blog/b001-the-alignment-problem/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Asking a child to pack up their toys, only find they throw them away - That feels like when I using AI. It followed my instruction&amp;hellip; but just not the exact one I wanted. ✨&lt;/p&gt;
+&lt;h4 id=&#34;why-this-is-the-case&#34;&gt;Why this is the case?&lt;/h4&gt;
+&lt;h4 id=&#34;how-to-make-the-ai-work-for-us-better&#34;&gt;How to make the AI work for us better?&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;Illustration&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/b001-the-alignment-problem/b001_TheAlighmentProblem.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dive into this book with me, Let&amp;rsquo;s explore how to align AI behaviour with human intent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>THE ALIGNMENT PROBLEM</title>
+      <link>http://localhost:1313/blog/b002-the-alignment-problem--copy/</link>
+      <pubDate>Mon, 21 Jul 2025 22:19:32 +1000</pubDate>
+      <guid>http://localhost:1313/blog/b002-the-alignment-problem--copy/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Asking a child to pack up their toys, only find they throw them away - That feels like when I using AI. It followed my instruction&amp;hellip; but just not the exact one I wanted. ✨&lt;/p&gt;
+&lt;h4 id=&#34;why-this-is-the-case&#34;&gt;Why this is the case?&lt;/h4&gt;
+&lt;h4 id=&#34;how-to-make-the-ai-work-for-us-better&#34;&gt;How to make the AI work for us better?&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;Illustration&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/b002-the-alignment-problem--copy/b001_TheAlighmentProblem.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dive into this book with me, Let&amp;rsquo;s explore how to align AI behaviour with human intent.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

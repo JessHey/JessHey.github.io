@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on &lt;/JesScirpt&gt;</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on &lt;/JesScirpt&gt;</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2025 22:19:32 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Tips</title>
+      <link>http://localhost:1313/blog/b003-sample-blog-post-to-learn-markdown-tips/</link>
+      <pubDate>Mon, 21 Jul 2025 22:19:32 +1000</pubDate>
+      <guid>http://localhost:1313/blog/b003-sample-blog-post-to-learn-markdown-tips/</guid>
+      <description>&lt;hr&gt;
+&lt;h1 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a demo post showcasing how to write blogs using Markdown. I was inspired by &lt;a href=&#34;https://jinhuili-lab.github.io/2020-02-28-sample-markdown-%E5%89%AF%E6%9C%AC/&#34;&gt;this article&lt;/a&gt; and highly recommend &lt;a href=&#34;https://markdowntutorial.com/&#34;&gt;spending just 5 mins to learn markdown&lt;/a&gt;.&lt;!-- raw HTML omitted --&gt; It is a powerful way to turn plain text into bold, italics, tables, and much more.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For people who are interested to learn some some more advanced tips about using markdown using Jekyll &lt;a href=&#34;https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md&#34;&gt;click here&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;you can visit this &lt;a href=&#34;https://www.markdowntutorial.com/&#34;&gt;Markdown Tutorial&lt;/a&gt; to learn and practice to try out, but below are some quick glapses.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

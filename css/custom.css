@@ -1,0 +1,251 @@
+/* -----------------------------------
+   🌸 主题变量定义（亮色和暗色）
+------------------------------------ */
+
+:root {
+  --theme: #ee53b2;
+  --background: #F2F5F7;
+  --primary: #3A3A3A; /* primary text color for titles,tags*/
+  --secondary: #b5b6b6; /* secondary text color for time-author-pre-footer  */
+  --text: #1f1e1e; /* main text color -the body text of blogs */
+  --link: #F26CA7;
+  --link-hover: #D95F8A;
+  --code-bg: #5e5e5f; /* background color for code blocks  */
+  --border: #f4f0f2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme: #1C1C1C;
+    --background: #222;
+    --primary: #FF4B91;
+    --secondary: #444;
+    --text: #EDEDED;
+    --link: #fca1ee;
+    --link-hover: #ffffff;
+    --code-bg: #333;
+    --border: #555;
+  }
+}
+
+/* -----------------------------------
+   🌐 通用样式
+------------------------------------ */
+body {
+  background-color: var(--background)!important;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  color: var(--text);
+}
+
+.main {
+  padding-top: 1.5rem !important; /* 减小首页顶部间距 */
+}
+
+/* -----------------------------------
+   🔗 链接样式
+------------------------------------ */
+a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* -----------------------------------
+   📰 首页文章卡片样式
+------------------------------------ */
+.post-entry {
+  background-color: var(--background);
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-entry:hover {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* 文章标题链接颜色控制 */
+.entry-header h2 a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.entry-header h2 a:hover {
+  color: var(--primary);
+}
+
+/* -----------------------------------
+   🏷️ 标签样式
+------------------------------------ */
+ul.post-tags {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.05rem;
+}
+
+ul.post-tags li a {
+  color: var(--text);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+ul.post-tags li a:hover {
+  background-color: var(--border);
+  color: var(--text);
+}
+
+/* 标签前提示词 */
+.tags-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.tags-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+  position: relative;
+  bottom: 7px;
+}
+
+/* -----------------------------------
+   📄 正文内容样式
+------------------------------------ */
+.post-content p {
+  color: var(--text);
+}
+
+/* -----------------------------------
+   🌙 暗色模式
+------------------------------------ */
+body.dark {
+  background-color: #393939 !important;
+  color: #eeeeee !important;
+}
+
+body.dark .main,
+body.dark .content,
+body.dark .markdown-body,
+body.dark section {
+  background-color: transparent !important;
+  color: #eeeeee !important;
+}
+
+body.dark a {
+  color: var(--link) !important;
+}
+
+body.dark a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline;
+}
+
+/* 暗色模式下标题 */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #ffffff !important;
+}
+
+body.dark .post-content p {
+  color: #e0e0e0 !important;
+  font-weight: 400;
+}
+
+/* emoji 不透明度 */
+body.dark .post-content p emoji {
+  opacity: 0.9;
+}
+
+/* 暗色模式下标签 */
+body.dark ul.post-tags li a {
+  color: #f0f0f0 !important;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.dark ul.post-tags li a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff !important;
+}
+
+body.dark .tags-label {
+  color: #e0e0e0 !important;
+}
+
+/* 暗色模式下页脚 */
+body.dark footer,
+body.dark footer a,
+body.dark footer small,
+body.dark footer .muted {
+  color: #d0d0d0 !important;
+  opacity: 1 !important;
+  font-size: 0.85rem;
+}
+
+/* box  */
+.box {
+  padding: 1rem;
+  border-left: 4px solid;
+  margin: 1rem 0;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.box-note {
+  border-color: #0a619b;
+  background-color: #e8f4fd;
+}
+
+.box-warning {
+  border-color: #f0ad4e;
+  background-color: #fff9e5;
+}
+
+.box-error {
+  border-color: #d9534f;
+  background-color: #fdecea;
+}
+
+
+
+/* Customise the vertical scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* adjust width */
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f5f7; /* background of the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5c5b5b; /* color of the scroll thumb */
+  border-radius: 10px;
+  border: 2px solid #f2f5f7; /* optional border around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #D95F8A;
+}

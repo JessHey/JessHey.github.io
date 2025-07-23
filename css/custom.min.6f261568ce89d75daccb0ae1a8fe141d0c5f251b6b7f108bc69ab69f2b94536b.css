@@ -1,0 +1,1 @@
+body{background-color:var(--background);font-family:segoe ui,helvetica neue,sans-serif}:root{--theme:#771050;--background:#771050;--primary:#f36de3;--secondary:#050505;--text:#1C1C1C;--code-bg:#FFF0E5;--border:#f36de3}@media(prefers-color-scheme:dark){:root{--theme:#1C1C1C;--background:#222;--primary:#f36de3;--secondary:#444;--text:#EDEDED;--code-bg:#333;--border:#555}}
