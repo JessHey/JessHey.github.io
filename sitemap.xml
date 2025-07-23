@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jesshey.github.io/blog/</loc>
     <lastmod>2025-07-21T23:00:16+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://jesshey.github.io/blog/blog/</loc>
     <lastmod>2025-07-21T22:19:32+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jesshey.github.io/blog/categories/</loc>
   </url>
 </urlset>
